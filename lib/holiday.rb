@@ -74,5 +74,5 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 def capitalize_and_space(symbol)
-  symbol.to_s.tr("_", " ").capitalize
+  symbol.to_s.tr("_", " ").split.map(&:capitalize).join(' ')
 end
