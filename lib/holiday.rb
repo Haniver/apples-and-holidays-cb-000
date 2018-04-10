@@ -76,6 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
       symbols_containing_bbq << holiday if supplies.include?("BBQ")
     end
   end
+  symbols_containing_bbq
 end
 
 def capitalize_and_space(symbol)
